@@ -18,6 +18,7 @@
             color: white;
             font-family: 'Poppins', sans-serif;
             overflow: hidden;
+            text-align: center;
         }
 
         h1 {
@@ -57,10 +58,45 @@
             opacity: 0;
             animation: fadeIn 2s ease-in-out 1.5s forwards;
         }
+
+        .services {
+            margin-top: 40px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out 2s forwards;
+        }
+
+        .services p {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin: 10px 0;
+        }
+
+        .contact {
+            margin-top: 30px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out 2.5s forwards;
+        }
+
+        .contact a {
+            color: red;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <h1>FrameX Media</h1>
     <p class="coming-soon">Coming Soon</p>
+    
+    <div class="services">
+        <p>⚡ Video Editing</p>
+        <p>🎨 Graphic Design</p>
+        <p>📱 Social Media Content</p>
+    </div>
+    
+    <div class="contact">
+        <p>Get in touch: <a href="mailto:contact@framexmedia.com">contact@framexmedia.com</a></p>
+    </div>
 </body>
 </html>
